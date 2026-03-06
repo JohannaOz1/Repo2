@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:25.8.0
 
 #Install and update system dependencies
 RUN apt update -y && apt install -y supervisor npm
